@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongodatabase-config
+data:
+  mongodatabase-urlpath: mongo-service
+
+  
